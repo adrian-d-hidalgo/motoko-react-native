@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "motoko-react-native",
+    "slug": "motoko-react-native",
+    "version": "1.0.0",
+    "description": "Motoko and React Native Boilerplate",
+    "sdkVersion": "51.0.0",
+    "platforms": []
+  }
+}

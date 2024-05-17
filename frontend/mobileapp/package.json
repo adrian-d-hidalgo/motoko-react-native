@@ -1,0 +1,42 @@
+{
+  "name": "mobileapp",
+  "main": "index.js",
+  "scripts": {
+    "dev": "EXPO_USE_METRO_WORKSPACE_ROOT=1 expo start --clear",
+    "dev:android": "expo start --android",
+    "dev:ios": "expo start --ios",
+    "dev:web": "expo start --web",
+    "clean": "rm -rf .expo && rm -rf .turbo && rm -rf node_modules",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
+  },
+  "dependencies": {
+    "@bundly/ares-core": "^0.2.0-beta.10",
+    "@bundly/ares-react": "^0.2.0-beta.9",
+    "@bundly/ares-react-native": "^0.2.0-beta.2",
+    "@dfinity/agent": "^1.3.0",
+    "big-integer": "^1.6.52",
+    "expo": "^51.0.8",
+    "expo-constants": "~16.0.1",
+    "expo-device": "~6.0.2",
+    "expo-linking": "~6.3.1",
+    "expo-router": "~3.5.14",
+    "expo-splash-screen": "~0.27.4",
+    "expo-status-bar": "~1.12.1",
+    "expo-web-browser": "~13.0.3",
+    "react": "18.3.1",
+    "react-native": "0.74.1",
+    "react-native-get-random-values": "~1.11.0",
+    "react-native-polyfill-globals": "^3.1.0",
+    "react-native-safe-area-context": "4.10.1",
+    "react-native-screens": "3.31.1",
+    "react-native-url-polyfill": "^2.0.0",
+    "text-encoding": "^0.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@types/react": "~18.3.2",
+    "typescript": "~5.4.5"
+  },
+  "version": "1.0.0"
+}
