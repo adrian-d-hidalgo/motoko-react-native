@@ -22,10 +22,13 @@
   "keywords": [
     "dfinity",
     "motoko",
+    "icp",
+    "internet computer",
+    "internet identity",
     "react",
-    "react-native",
-    "typescript",
-    "turbo"
+    "react native",
+    "tailwind",
+    "typescript"
   ],
   "scripts": {
     "dev": "turbo run dev --no-cache",

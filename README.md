@@ -1,5 +1,21 @@
 # ICP starter project with Motoko, Next.js and React Native
 
+This boilerplate is designed to easily build React Native applications connected to ICP Backend Canisters and enables authentication with Internet Identity
+
+## Features
+
+- Build React Native applications connected to ICP Backend Canisters
+- Authenticate users using Internet Identity
+- Internet Identity Middleware to delegate Internet Identity authentications to native applications
+
+## Stack
+
+- [Ares](https://github.com/bundlydev/ares/) - Frontend ICP Connector and Identity Manager
+- [Motoko](https://internetcomputer.org/docs/current/motoko/main/getting-started/motoko-introduction/) - Programming language to build dApps in ICP
+- [React](https://es.react.dev/) - Javascript library to build web applications
+- [React Native](https://reactnative.dev/) - Javascript framework to build mobile applications
+- [Tailwind](https://tailwindcss.com/) - CSS framework
+
 ## How to use for local development
 
 ### Initial setup
