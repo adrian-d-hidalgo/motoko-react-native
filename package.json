@@ -1,0 +1,47 @@
+{
+  "name": "motoko-react-native",
+  "description": "Boilerplate for starting ICP projects with Motoko and React Native",
+  "author": "Adrián Darío Hidalgo Flores",
+  "license": "MIT",
+  "private": "true",
+  "homepage": "https://github.com/adrian-d-hidalgo/motoko-react-native#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/adrian-d-hidalgo/motoko-react-native.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adrian-d-hidalgo/motoko-react-native/issues"
+  },
+  "engines": {
+    "node": ">=20.x"
+  },
+  "workspaces": [
+    "frontend/*",
+    "scripts/*"
+  ],
+  "keywords": [
+    "dfinity",
+    "motoko",
+    "icp",
+    "internet computer",
+    "internet identity",
+    "react",
+    "react native",
+    "tailwind",
+    "typescript"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --no-cache",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "generate": "dfx generate",
+    "tunnel:start": "npx --yes tsx ./scripts/tunnel/src/index.ts",
+    "clean": "turbo run clean && rm -rf node_modules && rm -rf .turbo && rm -rf src &&  rm -rf .dfx"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "4.3.0",
+    "prettier": "^3.2.5",
+    "turbo": "^1.13.3"
+  }
+}
